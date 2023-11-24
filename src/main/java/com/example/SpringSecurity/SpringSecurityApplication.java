@@ -27,7 +27,7 @@ public class SpringSecurityApplication implements CommandLineRunner {
 
 			user.setEmail("admin@gmail.com");
 			user.setFirstName("admin");
-			user.setLastName("admin");
+			user.setSecondName("admin");
 			user.setRole(Role.ADMIN);
 			user.setPassword(new BCryptPasswordEncoder().encode("admin"));
 

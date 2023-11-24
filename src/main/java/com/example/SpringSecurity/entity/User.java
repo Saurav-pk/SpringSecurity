@@ -7,9 +7,9 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 import java.util.Collection;
 
-@Entity
 @Data
-@Table(name = "student_table")
+@Entity
+@Table(name = "user")
 public class User implements UserDetails {
 
     @Id
@@ -18,7 +18,7 @@ public class User implements UserDetails {
 
     private String firstName;
 
-    private String lastName;
+    private String secondName;
 
     private String email;
 
